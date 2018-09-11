@@ -6,7 +6,7 @@ Before running terraform commands, please ensure that  `GITLAB_TOKEN` is set by 
 
 ```
 module "my-new-repo" {
-  source  = "git::https://src.ent.ea.com/terraform/tf_gitlab_tenant_repo.git"
+  source  = "git::https://github.com/naveenb29/tf_gitlab_repo.git"
   repo_name = "my-repo-name"
   repo_description = "my repo will do ..."
   visibility_level = "internal"
